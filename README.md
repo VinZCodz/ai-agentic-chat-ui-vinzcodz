@@ -30,6 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 - The main chat component is present under `app/components/Chat.tsx` which is the orchestrator for this chat UI
 - Add more custom react or tweak the existing components under `app/components`
+- Add your own welcome screen suggestion tiles under `src/config/useCases.ts`
 - Add your own site configurations under `app/config/site.ts` 
 - Replace with your own brand icon under `public/icon.png` 
 
