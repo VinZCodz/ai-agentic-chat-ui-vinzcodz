@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-vinz-blue: #3b82f6;
+  --color-bg-main: #09090b; /* Deep Zinc 950 */
+  --color-bg-card: #18181b; /* Zinc 900 */
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-bg-main);
+  color: #fafafa;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar for that pro look */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
+}
+
+@utility wiggle-gentle {
+  --wiggle-deg: 3deg;
+}
+
+@utility wiggle-wild {
+  --wiggle-deg: 20deg;
+}
+
+@theme {
+  --animate-wiggle: wiggle 0.5s ease-in-out infinite;
+
+  @keyframes wiggle {
+    0%, 100% {
+      transform: rotate(calc(var(--wiggle-deg, 10deg) * -1));
+    }
+    50% {
+      transform: rotate(var(--wiggle-deg, 10deg));
+    }
+  }
+}
