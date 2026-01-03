@@ -1,6 +1,7 @@
 A ready made chat UI template used for AI Agentic chats, built on NextJS client side framework. Plug your backend services to stream.
 
 ## Getting Started: How to use this template to create a premium Agentic UI?
+<img width="1046" height="89" alt="image" src="https://github.com/user-attachments/assets/7caedb63-6ec1-4fce-86ff-4d45a3efdb92" />
 
 - Click on `Use this template` on the top right corner on the repo header.
 - Click on `Create a new repository` to clone the template with all the source code. 
@@ -19,7 +20,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Tweak: How to create your own branded UI with minimal changes
+## Tweak: How to create your own branded UI with minimal changes?
 
 - You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 - The main chat component is present under `app/components/Chat.tsx` which is the orchestrator for this chat UI
