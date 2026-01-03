@@ -1,4 +1,6 @@
-A ready made chat UI template used for AI Agentic chats, built on NextJS client side framework. Plug your backend services to stream.
+A ready made UI template used for AI Agentic chats, built on NextJS client side framework. Plug your backend services to stream.
+
+- Check out live look and feel of the UI here: [vinzcodz-chat-ui.vercel.app](https://vinzcodz-chat-ui.vercel.app/)
 
 ## Getting Started: How to use this template to create a premium Agentic UI?
 <img width="1046" height="89" alt="image" src="https://github.com/user-attachments/assets/7caedb63-6ec1-4fce-86ff-4d45a3efdb92" />
@@ -20,6 +22,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+![WhatsApp Image 2026-01-03 at 14 52 48](https://github.com/user-attachments/assets/bd5225b5-90b6-4165-8ae0-31e035bf1d19)
+
+
 ## Tweak: How to create your own branded UI with minimal changes?
 
 - You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -32,7 +37,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deploy on Vercel
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## Support
 Please don't forget to `Fork` and `Star` the repo, thanks for the support!
